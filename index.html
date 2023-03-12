@@ -1,0 +1,504 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="style.css" rel="stylesheet" />
+<link href="css/lightslider.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+
+
+
+
+<style>
+    ul{
+        list-style: none outside none;
+        padding-left: 0;
+        margin: 0;
+    }
+    .demo .item{
+        margin-bottom: 60px;
+    }
+    .content-slider li{
+        background-color: #ed3020;
+        text-align: center;
+        color: #FFF;
+    }
+    .content-slider h3 {
+        margin: 0;
+        padding: 70px 0;
+    }
+    .demo{
+        width: 800px;
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/lightslider.js"></script>
+<script src="js/txt-effect"></script>
+<script>
+    $(document).ready(function() {
+       $("#content-slider").lightSlider({
+           loop:true,
+           auto:true,
+           speed:800,
+           keyPress:true,
+           item:2,
+           responsive: [
+					{
+						breakpoint:992,
+						settings: {
+							item:2,
+						  }
+					},
+					{
+						breakpoint:767,
+						settings: {
+							item:1,
+						  }
+					},
+					{
+						breakpoint:400,
+						settings: {
+							item:1,
+						  }
+					},
+					
+				]
+       });
+   });
+</script>
+
+</head>
+
+<body>
+
+	<div class="mainWrap">
+    	<div class="container-fluid g-0">
+        	<div class="row g-0">
+
+                <div class="col-md-12">
+                    <div class="menuGlobe">
+                        <nav class="navbar navbar-expand-lg navbar-light" >
+                            <div class="container-fluid">
+                              <a class="navbar-brand" href="#">Piyush Mishra</a>
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-decoration-none">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#homepage">Home</a>
+                                  </li>
+                                  <li class="nav-item"><a class="nav-link" href="#aboutpage">About Me</a></li>
+                                  <li class="nav-item"><a class="nav-link" href="#servicespage">What I Do</a></li>
+                                  <li class="nav-item"><a class="nav-link"  href="#summarypage">Resume</a></li>
+                                  <li class="nav-item"><a class="nav-link"  href="#">Portfolio</a></li>
+                                  <li class="nav-item"><a class="nav-link"  href="#">Testimonial</a></li>
+                                  <li class="nav-item"><a class="nav-link" href="#contactpage">Contact</a></li>
+                                </ul>
+                              </div>
+                            </div>
+                          </nav>
+                    </div>
+                  </div>
+            
+                <div class="col-md-2">
+                    <div class="sidebar">
+                        
+                        <div class="profile-picture">
+                            <img src="images/profile.jpg" class="picture" />
+                        </div>
+                        
+                        <h1 class="name">Piyush Mishra</h1>
+                        
+                        <div class="task-bar">
+                            <ul>
+                                <li class="active"><a href="#homepage"><i class="bi bi-house-door-fill task-icon"></i>Home</a></li>
+                                <li><a href="#aboutpage"><i class="bi bi-person-fill task-icon"></i>About Me</a></li>
+                                <li><a href="#servicespage"><i class="bi bi-laptop task-icon"></i>What I Do</a></li>
+                                <li><a href="#summarypage"><i class="bi bi-person-vcard-fill task-icon"></i>Resume</a></li>
+                                <li><a href="#"><i class="bi bi-bag task-icon"></i>Portfolio</a></li>
+                                <li><a href="#"><i class="bi bi-quote task-icon"></i>Testimonial</a></li>
+                                <li><a href="#contactpage"><i class="bi bi-envelope-at-fill task-icon"></i>Contact</a></li>
+                                
+                            </ul>
+                        </div>
+
+                        <div class="social-media">
+                            <ul>
+                                <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                <li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+                                <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                                <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    
+                  </div>
+
+
+                <div class="col-md-10 aaa">
+                  <div class="mainContent">  
+                    <div class="home" id="homepage">
+                        <div class="overlay">
+                            <div class="txt-1">
+                                <h2>-HELLO, WELCOME TO MY PERSONAL WEBSITE.</h2>
+                                <h1>I'm Piyush Mishra</h1>
+                                <p>A multi-focused Web Developer & Designer working on 
+                                    interfaces and graphics for digital platforms.</p>
+                                    
+
+                                <a href="mailto:piyushmi8882@gmail.com"><button type="button" class="hire-btn">Hire Me</button></a>
+                            </div>
+                           
+                            <div class="scroll-down">
+                                <a href="#aboutpage">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                                
+                            </div>
+
+                        </div>
+                  </div>
+
+                  <div class="about" id="aboutpage">
+                    <h1>ABOUT ME
+                        <span>Know Me More</span>
+                    </h1>
+
+                    <div class="col-md-9 details">
+                        <h2>I'm <span class="name-span">Piyush Mishra</span>, a Web Developer</h2>
+                        <p>I Would Bring a Focus on Quality and Ease of Use to Your System Development. Known for Creativity, Flexibility and Sense of Humour. Perseverance And Smart Work Are My Major Strengths.</p>
+                           <p>Meeting Deadlines in Stipulated Time with Best of Presentation and Aimed Towards Perfection Are my Major Assets in Profession.
+                            My skills might be limited, but my desire to learn new things and develop professionally are endless.</p>
+                    </div>
+
+                    <div class="col-md-9 n-detail">
+                        <ul>
+                            <li><span>Name:</span> Piyush Mishra</li>
+                            <li><span>Email:</span> piyushmi8882@gmail.com</li>
+                            <li><span>Age:</span> 20</li>
+                            <li><span>From:</span> New Delhi, India</li>
+                        </ul>
+                        
+                    <a href="#"><button type="button" class="cv-btn">Download CV</button></a>
+                    
+                    </div>
+						
+                   </div>
+                   
+                   
+                   <div class="services" id="servicespage">
+                    <h1>SERVICES
+                        <span>What i Do?</span>
+                    </h1>
+                    
+                        <div class="slider-wrapper">
+                                 
+                                <div class="item">
+                                    <ul id="content-slider" class="content-slider">
+                                        <li>
+                                            <div class="itemData">
+                                                <div class="itemImg">
+                                                    <img src="images/web-dev.jpg" />
+                                                </div>
+                                                    <div class="slider-txt">
+                                                            <h2>Web Development</h2>
+                                                            <p>
+                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                                                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas 
+                                                                accumsan lacus vel facilisis. 
+                                                            </p>
+                                                    </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="itemData">
+                                                <div class="itemImg">
+                                                    <img src="images/web-design.jpg" />
+                                                </div>
+                                                    <div class="slider-txt">
+                                                            <h2>Web Design</h2>
+                                                            <p>
+                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                                                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas 
+                                                                accumsan lacus vel facilisis. 
+                                                            </p>
+                                                    </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="itemData">
+                                                <div class="itemImg">
+                                                    <img src="images/ui-design.jpg" />
+                                                </div>
+                                                    <div class="slider-txt">
+                                                            <h2>UI/UX Design</h2>
+                                                            <p>
+                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                                                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas 
+                                                                accumsan lacus vel facilisis. 
+                                                            </p>
+                                                    </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="itemData">
+                                                <div class="itemImg">
+                                                    <img src="images/graphic.jpg" />
+                                                </div>
+                                                    <div class="slider-txt">
+                                                            <h2>Graphic Design</h2>
+                                                            <p>
+                                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                                                Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas 
+                                                                accumsan lacus vel facilisis. 
+                                                            </p>
+                                                    </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            
+                            	
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="summary" id="summarypage">
+                        <h1>SUMMARY
+                            <span>RESUME</span>
+                        </h1>
+
+                        <div class="cardSlot">
+                            <h2>My Education</h2>
+                            <div class="row g-0">
+                                <div class="col-md-6">
+                                    <div class="card-1">
+                                        <h3>2020-2021</h3>
+                                        <h2>Schooling</h1>
+                                        <h4>CBSE Board</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+                                        </p>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="card-1">
+                                        <h3>2021-2024</h3>
+                                        <h2>Bachelor’s Degree</h1>
+                                        <h4>Delhi University</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+                                        </p>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="card-1">
+                                        <h3>2020-2022</h3>
+                                        <h2>Web Development</h1>
+                                        <h4>Web Skills Institute</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+                                        </p>
+                                        
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="card-1">
+                                        <h3>2020-2021</h3>
+                                        <h2>Graphics Designing</h1>
+                                        <h4>Web Skills Institute</h2>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+                                        </p>
+                                        
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+    
+                        <div class="skillSlot">
+                            <h2>My Skills</h2>
+
+                            <div class="row">
+                                <div class="col-md-2">
+                                    <div class="skills">
+                                        <img src="images/html.png">
+                                        <p>HTML5</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="skills">
+                                        <img src="images/css.png">
+                                        <p>CSS3</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="skills">
+                                        <img src="images/js.png">
+                                        <p>JavaScript</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="skills">
+                                        <img src="images/php.png">
+                                        <p>PHP</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="skills">
+                                        <img src="images/bootstrap.png">
+                                        <p>Bootstrap</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="skills">
+                                        <img src="images/jquery.png">
+                                        <p>jQuery</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="skills">
+                                        <img src="images/mysql.png">
+                                        <p>MySQL</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="skills">
+                                        <img src="images/dw.png">
+                                        <p>Dreamweaver</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="skills">
+                                        <img src="images/ps.png">
+                                        <p>Photoshop</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="skills">
+                                        <img src="images/ai.png">
+                                        <p>Illustrator</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="skills">
+                                        <img src="images/cdr.png">
+                                        <p>CorelDraw</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-2">
+                                    <div class="skills">
+                                        <img src="images/ms.png">
+                                        <p>MS Office</p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <a href="#"><button type="button" class="cv-btn2">Download CV</button></a>
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="contact" id="contactpage">
+                        <h1>ABOUT ME
+                            <span>Know Me More</span>
+                        </h1>
+    
+                        <div class="row g-0">
+                            <div class="col-lg-9 col-sm-7">
+                                <div class="contactSlot">
+                                    <input class="name-f" placeholder="Name" type="text">
+                                    <input class="email" placeholder="Email" type="text">
+                                    <textarea class="messege" placeholder="Messege..." style="resize: none;""></textarea>
+                                </div>
+                                <a href="#"><button type="button" class="contact-btn">Submit</button></a>
+                            </div>
+
+                            <div class="col-lg-3 col-sm-5">
+                                <div class="infoSlot">
+                                    <h3>Address</h3>
+                                    <h4>H.NO.-380, Block-D, Om Nagar, Meethapur Extn, Badarpur, New Delhi-44</h4>
+                                    <ul>
+                                        <li>+91 88826 15181</li>
+                                        <li>piyushmi8882@gmail.com</li>
+                                    </ul>
+
+                                    <div class="social-link">
+                                        Follow Me
+                                        <ul>
+                                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                                			<li><a href="#"><i class="bi bi-whatsapp"></i></a></li>
+                                            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                                            <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                       </div>
+                    
+
+                       <div class="policy">
+                         <div class="row g-0">
+                            <div class="col-md-8">
+                                <p class="copywrite">Copyright © 2023 Piyush. All Rights Reserved</p>
+                            </div>
+                            <div class="col-md-4">
+                                <p class="terms"> Terms & Policy Disclaimer</p>
+                            </div>
+                        </div>
+                       </div>
+						
+                 
+                   
+
+                
+
+				</div>
+            </div>
+        </div>
+    </div>
+    </div>
+    
+
+
+</body>
+</html>
